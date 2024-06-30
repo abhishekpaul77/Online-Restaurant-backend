@@ -7,10 +7,7 @@ require('dotenv').config();
 
 //Middleware
 app.use(express.json());
-app.use(cors({
-  origin: 'https://online-restaurant-frontend.onrender.com',
-  optionsSuccessStatus: 200
-}));
+app.use(cors());
 
 //Mongo Connection
 
